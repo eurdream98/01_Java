@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/chap01-literal-and-variable-lecture-source" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/git-test-project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace/git-test-project/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/git-test-project/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/chap01-literal-and-variable/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework/chap01-literal-and-variable/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/test" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2aA9A32ehamNYauZZJzU2WPlKoy" />
   <component name="ProjectViewState">
@@ -24,7 +23,11 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/01_java/workspace",
+    "last_opened_file_path": "C:/01_java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -38,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703750369829</updated>
       <workItem from="1703750370814" duration="283000" />
+      <workItem from="1703812914826" duration="401000" />
     </task>
     <servers />
   </component>
