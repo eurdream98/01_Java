@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/homework/chap01-literal-and-variable/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework/chap01-literal-and-variable/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="2023-12-29&#10;01_변수,02_연산자,03_메소드">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/01_java",
+    "last_opened_file_path": "C:/01_java/homework/chap01-literal-and-variable",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,10 +42,23 @@
       <updated>1703750369829</updated>
       <workItem from="1703750370814" duration="283000" />
       <workItem from="1703812914826" duration="401000" />
+      <workItem from="1703837106627" duration="1275000" />
     </task>
+    <task id="LOCAL-00001" summary="2023-12-29&#10;01_변수,02_연산자,03_메소드">
+      <created>1703837192584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703837192584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2023-12-29&#10;01_변수,02_연산자,03_메소드" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-12-29&#10;01_변수,02_연산자,03_메소드" />
   </component>
 </project>

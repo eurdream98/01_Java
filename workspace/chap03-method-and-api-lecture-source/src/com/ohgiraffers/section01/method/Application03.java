@@ -4,7 +4,7 @@ public class Application03 {
     public static void main(String[] args) {
         /* 메소드 전달인자(argument)와 매개변수(parameter)에 대해 이해하고 메소드 호출 시 사용할 수 있다.*/
         /* 1. 전달 인자로 값 전달 테스트
-        * 호충ㄹ하려는 메소드의 매개변수 선언부에 미리 선언해둔 자료형,갯수,순서가 일치하게 값을 넣어 호출해야한다.
+        * 호출하려는 메소드의 매개변수 선언부에 미리 선언해둔 자료형,갯수,순서가 일치하게 값을 넣어 호출해야한다.
         * */
         Application03 app3 = new Application03();
         app3.testMethod(40);

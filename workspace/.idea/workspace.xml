@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c1b7fa6-244d-40d6-91d9-22716b710662" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/chap01-literal-and-variable-lecture-source/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap01-literal-and-variable-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-test-project/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2aA9kBkijzJqOibizjNJ5YLOalY" />
   <component name="ProjectViewState">
@@ -34,7 +21,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/01_java/workspace/chap01-literal-and-variable-lecture-source",
+    "last_opened_file_path": "C:/01_java/workspace/chap03-method-and-api-lecture-source",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -49,6 +36,7 @@
       <updated>1703750656369</updated>
       <workItem from="1703750657322" duration="243000" />
       <workItem from="1703764020490" duration="23000" />
+      <workItem from="1703849516597" duration="20000" />
     </task>
     <servers />
   </component>
