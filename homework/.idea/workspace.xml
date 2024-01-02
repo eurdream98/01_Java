@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3be5fea0-3d79-4ee2-a35f-5c9e324c0598" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../workspace/chap02-operator-lecture-source/src/com/ohgiraffers/section01/arithmetic/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap02-operator-lecture-source/src/com/ohgiraffers/section02/assignment/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap02-operator-lecture-source/src/com/ohgiraffers/section03/increment/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap02-operator-lecture-source/src/com/ohgiraffers/section04/comparison/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap02-operator-lecture-source/src/com/ohgiraffers/section05/logical/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap02-operator-lecture-source/src/com/ohgiraffers/section05/logical/Application02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap02-operator-lecture-source/src/com/ohgiraffers/section05/logical/Application03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap02-operator-lecture-source/src/com/ohgiraffers/section06/ternary/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap03-method-and-api-lecture-source/src/com/ohgiraffers/section01/method/Application01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap03-method-and-api-lecture-source/src/com/ohgiraffers/section01/method/Application02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap03-method-and-api-lecture-source/src/com/ohgiraffers/section01/method/Application03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap03-method-and-api-lecture-source/src/com/ohgiraffers/section01/method/Application04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap01-literal-and-variable/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chap01-literal-and-variable/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +22,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/01_java/homework/chap01-literal-and-variable",
+    "last_opened_file_path": "C:/01_java/homework/chap03-method-and-api-practice",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -50,6 +37,8 @@
       <updated>1703750902338</updated>
       <workItem from="1703750903351" duration="61000" />
       <workItem from="1703835750337" duration="55000" />
+      <workItem from="1704189529137" duration="53000" />
+      <workItem from="1704195593303" duration="21000" />
     </task>
     <servers />
   </component>
