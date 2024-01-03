@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="2024-01-02&#10;03_메소드와 api" />
+    <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="2024-01-02&#10;03_메소드와 api_homework_수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,19 +20,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/01_java/homework",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/01_java/homework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,6 +45,8 @@
       <workItem from="1703812914826" duration="401000" />
       <workItem from="1703837106627" duration="1275000" />
       <workItem from="1704189486842" duration="41000" />
+      <workItem from="1704196536961" duration="67000" />
+      <workItem from="1704196864341" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="2023-12-29&#10;01_변수,02_연산자,03_메소드">
       <created>1703837192584</created>
@@ -57,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704189514650</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2024-01-02&#10;03_메소드와 api_homework_수정">
+      <created>1704196565965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704196565965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,6 +78,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2023-12-29&#10;01_변수,02_연산자,03_메소드" />
     <MESSAGE value="2024-01-02&#10;03_메소드와 api" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-01-02&#10;03_메소드와 api" />
+    <MESSAGE value="2024-01-02&#10;03_메소드와 api_homework_수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-01-02&#10;03_메소드와 api_homework_수정" />
   </component>
 </project>

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3be5fea0-3d79-4ee2-a35f-5c9e324c0598" name="Changes" comment="">
+    <list default="true" id="3be5fea0-3d79-4ee2-a35f-5c9e324c0598" name="Changes" comment="2024.01.03&#10;04_제어문_조건문,반복문(중첩for문)">
+      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section01/conditional/A_if.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section01/conditional/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section01/conditional/B_ifElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section01/conditional/C_ifElseIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section01/conditional/D_switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section02/looping/A_for.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section02/looping/A_nestedFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section02/looping/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -22,7 +33,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/01_java/homework/chap03-method-and-api-practice",
+    "last_opened_file_path": "C:/01_java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -39,6 +54,11 @@
       <workItem from="1703835750337" duration="55000" />
       <workItem from="1704189529137" duration="53000" />
       <workItem from="1704195593303" duration="21000" />
+      <workItem from="1704196604856" duration="22000" />
+      <workItem from="1704196827856" duration="35000" />
+      <workItem from="1704196910520" duration="504000" />
+      <workItem from="1704243217501" duration="408000" />
+      <workItem from="1704265753320" duration="553000" />
     </task>
     <servers />
   </component>
