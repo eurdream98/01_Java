@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3be5fea0-3d79-4ee2-a35f-5c9e324c0598" name="Changes" comment="2024.01.03&#10;04_제어문_조건문,반복문(중첩for문)">
-      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section01/conditional/A_if.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section01/conditional/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section01/conditional/B_ifElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section01/conditional/C_ifElseIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section01/conditional/D_switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section02/looping/A_for.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section02/looping/A_nestedFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../workspace/chap04-control-flow-lecture-source/src/com/ohgiraffers/section02/looping/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -28,20 +20,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/01_java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/01_java/homework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +51,8 @@
       <workItem from="1704196910520" duration="504000" />
       <workItem from="1704243217501" duration="408000" />
       <workItem from="1704265753320" duration="553000" />
+      <workItem from="1704266373710" duration="80000" />
+      <workItem from="1704266476067" duration="12000" />
     </task>
     <servers />
   </component>
