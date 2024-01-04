@@ -13,7 +13,18 @@ public class Application {
         A_nestedFor a2 = new A_nestedFor();
 //        a2.printGugudanFromTowtoNine();
 //        a2.printStarInputRowTimes();
-            a2.printTriangleStars();
+//            a2.printTriangleStars();
+
+        B_while b = new B_while();
+//        b.testSimpleWhileStatement();
+//        b.testWhileExample1();
+//        b.testWhileExample2();
+//        b.testWhileExample3();
+
+        C_doWhile c = new C_doWhile();
+//        c.testSimpleDoWhileStatement();
+        c.testDoWhileExample1();
     }
+
 
 }
