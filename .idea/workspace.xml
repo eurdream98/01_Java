@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)_homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +21,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/01_java/homework/chap04-control-flow",
+    "last_opened_file_path": "C:/01_java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,6 +48,7 @@
       <workItem from="1704278201433" duration="296000" />
       <workItem from="1704328232573" duration="616000" />
       <workItem from="1704358823021" duration="1085000" />
+      <workItem from="1704415140494" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="2023-12-29&#10;01_변수,02_연산자,03_메소드">
       <created>1703837192584</created>
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704358874673</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)_homework">
+      <created>1704415155310</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704415155310</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +111,7 @@
     <MESSAGE value="2024-01-02&#10;03_메소드와 api_homework_수정" />
     <MESSAGE value="2024.01.03&#10;04_제어문_조건문,반복문(중첩for문)" />
     <MESSAGE value="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)" />
+    <MESSAGE value="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)_homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)_homework" />
   </component>
 </project>
