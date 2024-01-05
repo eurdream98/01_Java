@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)_homework" />
+    <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="2024.01.05&#10;05_배열(다차원배열,깊은복사&amp;얕은복사,foreach구문)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,19 +17,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/01_java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/01_java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +49,7 @@
       <workItem from="1704328232573" duration="616000" />
       <workItem from="1704358823021" duration="1085000" />
       <workItem from="1704415140494" duration="610000" />
+      <workItem from="1704443363419" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="2023-12-29&#10;01_변수,02_연산자,03_메소드">
       <created>1703837192584</created>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704415155310</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2024.01.05&#10;05_배열(다차원배열,깊은복사&amp;얕은복사,foreach구문)">
+      <created>1704443402166</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704443402166</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +120,7 @@
     <MESSAGE value="2024.01.03&#10;04_제어문_조건문,반복문(중첩for문)" />
     <MESSAGE value="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)" />
     <MESSAGE value="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)_homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)_homework" />
+    <MESSAGE value="2024.01.05&#10;05_배열(다차원배열,깊은복사&amp;얕은복사,foreach구문)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.01.05&#10;05_배열(다차원배열,깊은복사&amp;얕은복사,foreach구문)" />
   </component>
 </project>
