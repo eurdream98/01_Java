@@ -28,6 +28,7 @@ public class User {
     /*2. 매개변수 생성자 */
     /* 초기화 할 필드가 여러 개인 경우, 초기화 하고 싶은 필드의 조합별로 생성자를 여러 개 작성할 수 있다. */
     public User(String id,String pwd,String name){
+        super();
         this.id = id;
         this.pwd = pwd;
         this.name = name;
