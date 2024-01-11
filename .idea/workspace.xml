@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="2024.01.05&#10;05_배열(다차원배열,깊은복사&amp;얕은복사,foreach구문)" />
+    <list default="true" id="3f0fec6a-8002-4168-b71d-8b6259e320e4" name="Changes" comment="2024.01.10&#10;06_클래스와 객체,07_상속,08_다형성" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +50,7 @@
       <workItem from="1704358823021" duration="1085000" />
       <workItem from="1704415140494" duration="610000" />
       <workItem from="1704443363419" duration="726000" />
+      <workItem from="1704884425221" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="2023-12-29&#10;01_변수,02_연산자,03_메소드">
       <created>1703837192584</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704443402166</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2024.01.10&#10;06_클래스와 객체,07_상속,08_다형성">
+      <created>1704884469564</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704884469564</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +129,7 @@
     <MESSAGE value="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)" />
     <MESSAGE value="2024.01.04&#10;04_제어문(while,dowhile,break,continue),배열(1차원 배열)_homework" />
     <MESSAGE value="2024.01.05&#10;05_배열(다차원배열,깊은복사&amp;얕은복사,foreach구문)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.01.05&#10;05_배열(다차원배열,깊은복사&amp;얕은복사,foreach구문)" />
+    <MESSAGE value="2024.01.10&#10;06_클래스와 객체,07_상속,08_다형성" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.01.10&#10;06_클래스와 객체,07_상속,08_다형성" />
   </component>
 </project>
