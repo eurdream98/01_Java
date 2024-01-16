@@ -72,13 +72,11 @@ public class Application01 {
 //        stringList.add(123);
 
         System.out.println("stringList : "+stringList);
-
         /*저장 순서를 유지하고 있는 stringList를 오름차순 정렬한다.
         * Collection 인터페이스가 아닌 Collections 클래스를 사용한다.
         * 컬렉션에서 사용되는 기능들을 static메소드들로 구현한 클래스이다.*/
         Collections.sort(stringList);
         /*sort 메소드를 사용하면 리스트가 오름차순 정렬 된 후 정렬 상태가 유지 된다.*/
         System.out.println("stringList : "+stringList);
-
     }
 }
