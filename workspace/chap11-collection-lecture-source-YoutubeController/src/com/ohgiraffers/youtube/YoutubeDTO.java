@@ -1,8 +1,9 @@
 package com.ohgiraffers.youtube;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class YoutubeDTO {
+public class YoutubeDTO implements Serializable {
     private static int nextId = 1;
     private int id;
     private String youtuber;
