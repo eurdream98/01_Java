@@ -21,6 +21,7 @@ public class Member {
     public String getMemberName() {
         return memberName;
 
+
     }
 
     public void  setMemberName(String memberName) {
