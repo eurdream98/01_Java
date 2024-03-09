@@ -16,6 +16,7 @@ public class MemberDTO implements Serializable {
     private  transient double point;
 
     public MemberDTO() {
+
     }
 
     public MemberDTO(String id, String pwd, String name, String email, int age, char gender, double point) {
