@@ -18,6 +18,7 @@ public class SubClass extends SuperClass{
 //    @Override
 //    public void method() throws Exception{}
     /*부모 예외 처리 클래스보다 하위의 예외(더 구체적인 예외)인 경우에는 오버라이딩 할 수 없다.*/
+
     @Override
     public void method() throws FileNotFoundException{}
 }
