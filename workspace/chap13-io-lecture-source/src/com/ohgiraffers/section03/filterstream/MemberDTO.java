@@ -12,6 +12,7 @@ public class MemberDTO implements Serializable {
     private String email;
     private int age;
     private char gender;
+
     /*transient 예약어는 특정 필드를직렬화에서 제외한다는 의미이다.*/
     private  transient double point;
 
