@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class SubClass extends SuperClass{
+
     /*throws 구문 없이 오버라이딩 할 수 있다.*/
 //    @Override
 //    public void method(){
