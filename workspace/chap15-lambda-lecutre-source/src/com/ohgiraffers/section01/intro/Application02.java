@@ -10,6 +10,7 @@ public class Application02 {
         OuterCalculator.Divide divide= (x,y) -> x/y;
 
         System.out.println(sum.sumTwoNumber(20,10));
+
         System.out.println(minus.minusTwoNumber(20,10));
         System.out.println(multiple.multipleTwoNumber(20,10));
         System.out.println(divide.divideTwoNumber(20,10));
