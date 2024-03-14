@@ -25,6 +25,7 @@ public class Application {
 
         /*Producte,Computer 모든 필드 초기화 생성자*/
         Computer computer3 = new Computer("S-01234","삼성","갤럭시Z폴드2",238900,new Date(),"퀼컴 스냅드래곤",512,12,"안드로이드");
+
         System.out.println(computer3.getInformation());
     }
 }
