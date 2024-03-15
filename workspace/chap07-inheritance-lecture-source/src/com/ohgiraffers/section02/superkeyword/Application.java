@@ -18,6 +18,7 @@ public class Application {
 
         /*Computer 기본 생성자*/
         Computer computer1 = new Computer();
+
         System.out.println(computer1.getInformation());
 
         /*Computer 모든 필드 초기화 생성자*/
