@@ -45,6 +45,7 @@ public class A_nestedFor {
         System.out.println("출력할 행 수 입력 : ");;
         int row = sc.nextInt();
 
+
         /*입력한 숫자만큼 반복*/
         for(int i = 1 ; i<=row;i++){
             /* 별을 5개 출력하는 것을 반복*/
