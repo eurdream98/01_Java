@@ -10,6 +10,7 @@ public class Application01 {
         System.out.println("num1은 "+result1);
         System.out.println("num1은 "+result2);
 
+
         /* 중첩 사용도 가능하다. */
         int num3 = 5;
         int num4 = 0;
