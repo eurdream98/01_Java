@@ -33,6 +33,7 @@ public class Application03 {
 
         sc.nextLine();//입력 버퍼를 읽어서 버린다.
 
+
         System.out.println("문자열을 입력해주세요 : ");
         String str2 = sc.nextLine();
         System.out.println("str2 : "+str2);
