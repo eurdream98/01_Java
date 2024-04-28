@@ -5,6 +5,7 @@ public class Application2 {
         /*try catch 블럭을 이용하여 예외 처리를 할 수 있다.*/
         ExceptionTest et = new ExceptionTest();
 
+
         try {
             /* try블럭에는 예외 발생 가능성이 있는 코드를 호출 한다.*/
             et.checkEnoughMoney(10000,5000);
