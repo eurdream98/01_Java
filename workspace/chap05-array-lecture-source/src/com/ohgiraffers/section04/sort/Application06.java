@@ -23,6 +23,7 @@ public class Application06 {
                 }
             }
         }
+
         System.out.println(Arrays.toString(arr));
     }
 }
