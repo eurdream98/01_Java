@@ -7,6 +7,7 @@ public class Application06 {
     public static void main(String[] args) {
         /* 중복 제거
         *  5개의 길이의 배열에 1~10 사이의 랜덤 값을 "중복 값 없이" 담기
+        *
         * */
 
 
