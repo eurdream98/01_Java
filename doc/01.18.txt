@@ -1,0 +1,173 @@
+01.18
+
+입출력
+
+클래스를 통해 만든 객체로 스트림이 만들어짐 적절한 스트림을 선택하는 것이 중요
+
+InputStream,OutputStream,Reader,Writer 모두 추상클래스 세부적인 클래스 찾아서 써야함
+
+FileInputStream 파일이라고 하는 자원과 연결된 스트림인데 바이트기반 입력 스트림이다.라는 의미이다.
+
+read메소드를 통해 읽어온 값을 1바이트 값으로 나타내줌. 더이상 읽어올 것이 없으면 -1반환
+
+read(배열) 메소드에서 InputStream은 바이트 단위로 가져왔고 Reader은 char형 배열을 가져왔음 입력은 배열에 저장 배열만큼 읽어온다.
+
+----------------------------------------------------------------------------------------------
+
+출력
+
+FileOutputStream : 프로그램에 작성한 문자들을 파일로 바이트 단위로 내보냄
+
+FileOutputStream()에 파일명만 넣으면 파일이 없어도 File을 생성해주며 Excetpion이 나지 않는다. 경로를 올바르게 적을 경우 오류가 난다. 
+
+FileOutputStream fout = new FileOutputStream("testOutputStream.txt")생성자는 두 가지 버전이 있다. 차이는 File내용을 덮어쓰느냐 아니면 이어 쓰기이냐 차이이다. 만약 이어쓰기를 하고 싶다면 두 번째 인자에 ture를 넣어주면 된다. FileOutputStream fout = new FileOutputStream("testOutputStream.txt",true)
+
+출력 스트림은 write메소드를 통해 입력하면 된다. 
+
+write(int) -> 값을 하나만 내보낸다. 
+write(byte배열) -> 값 여러개를 배열을 통해 내보낸다.
+write(byte배열,off,len) -> byte배열에서 off인덱스부터 len까지 출력
+
+-------------------------------------------------------------------------------------------------
+FileWriter
+
+FileOutputStream과는 character단위로 출력하고 write 메소드의 인자가 char[] 또는 String 형으로 다루어질 수 있다. 
+
+마찬가지로 생성자로 파일이 없다면 만들어주고 생성자의 두번째 인자가 true이면 이어쓰기를 해준다. 
+
+File기반 스트림 4가지의 메소드 read(),write()는 뭔가 성능이 시원치않다. 
+
+성능적인 부분을 보완하기 위해 보조스트림이 필요하다. FileInput/OutputStream
+
+FileReader/,,,4가지 -> 기반 스트림, 살제자원과 연결되는 스트림
+보조스트림을 통해 기능을 향상시키거나 새로운 기능을 추가하기 위해 사용한다.
+
+보조스트림은 반드시 기반스트림이 있고 거기에 추가로 적용하는 모습이다.  혼자서는 아무것도 못함
+
+transient 예약어는 특정 필드를직렬화에서 제외한다는 의미이다.
+
+1. 성능 관련 보조 스트림
+BufferedXXX ->예를들어 BufferedInputStream.. buffer라는 공간을 이용 
+
+입력기반 스트림에서는 데이터가 1byte씩 짤려서 나왔다. Buffer라는 공간에 데이터를 조금 쌓았다가 한번에 보냄 -> 데이터를 입출력하는 횟수를 줄일 수 있음 (하나하나 보내지 않기 때문에)성능적인 향상이 있다.
+
+BufferedInputStream,BufferedOutputStrea,BufferedReader,BufferedWriter모두 존재하지만 Reader와 Writer을 많이 쓴다.
+
+BufferedWriter bw = null;
+        
+        try{
+            bw = new BufferedWriter(new FileWriter("testBuffered.txt"));
+        }
+선언 
+다음과 같이 보조스트림을 생성할 때 생성자의 인자에 기반스트림을 필요로한다.!!
+
+메소드도 Writer와 크게 차이점이 없다. 다만.write()에서 buffer에 쌓였지만 출력이 되지 않은 상태가 있을 수있다.버퍼에 쌓인 데이터를 내보내려면 .flush()를 쓰면 된다. 
+
+close()를 호출하면 내부적으로 flush()를 실행하고 나서 자원을 반납한다.
+
+BufferedReader 메소드 read(),read(배열)은 이전 Reader들과 비슷하지만 새로운 메소드인 readLine()은 한 줄을 읽어오는 것이다. 
+
+readLine()에서 읽어올 값이 없으면 null값을 반환한다
+
+형변환 보조 스트림
+기반 스트림이 byte이고 보조스트림이 char 기반 스트림인 경우 사용한다.
+
+기반스트림과 보조스트림의 형이 달라서 형변환을 해줄 수 이는 보조스트림이 존재한다.
+
+System.in -> 입력스트림이다. 
+System.out -> 출력스트림이다.
+
+기반스트림 : 자원에 연결되는 스트림
+보조스트림 : 기반 스트림에 연결되서 보조적 역할을 하는 스트림
+
+표준스트림은 다르다. 이들과는 표준 스트림은 만들어져 있는 것을 제공해주는 것이다. 콘솔과의 연결을 관리해주는 스트림이다. 즉, 자주 사용 되는 자원(콘솔)에 대해 미리 스트림을 생성해 두었기 때문에 개발자가 별도로 스트림을 생성하지 않아도 된다.
+
+InputStream인 System.in을 BufferedReader로 바꾸고 싶을 때 InputStreamReader로 형변환하여 사용할 수 있다.
+
+Scanner sc = new Scanner(System.in) -> 콘솔과 연결된 스트림을 기반으로 Scanner에 넘겨라라는 의미였음
+
+보조스트림 변수 = new 보조스트림(new 기반스트림());
+
+byte나 char 단위로 입출려하지 않고 int,double,boolean 단위로 입출력하고 싶을 때 DataInputStream,DataOutputStream을 쓴다.
+
+DataOutputStream은 write()메소드가 상당히 많다. 형변환을 해주어 write해주는 것이다.
+
+데이터 타입으로 write했기 때문에 file에 나타난 모습은 그대로 나오지는 않는다.
+
+DataInputStream은 read()메소드가 상당히 많다. 데이터별로 읽을 수 있는 메소드들이 많다. 
+
+반환값이 read()인 메소드는 -1이 나올 때까지 입력을 반복하면됬고 String형을 반환하는 readLine()은 null값이 나타날 때 까지 반복하면 됬었는데 DataInputStream은 언제까지 반복해야하는지 어떻게 아는가?
+
+EOFException은 읽어올 것이 없는 경우에 나타나는 에러이다. 
+그렇기 때문에 이 에러가 나타날 때까지 읽도록 catch구문을 쓴다. 
+
+내가 입력한 데이터가 String int char순서라면 읽어올 때(writeUTF(),writeInteger(),writeChar())도 readUTF(),readInteger(),readchar()순서로 읽어와야한다.
+
+파일에 기록한 순서대로 읽어오지 않는 경우 에러가 발생하거나 의미 없는 데이터를 읽어오게 된다.
+
+객체 단위 입출력 보조 스트림은 ObjectInputStream/ObjectOutputStream 이다.
+
+ObjectOutputStream .write(Object)메소드 이용 가능
+
+.NotSerializableException
+DTO 클래스에 직렬화 처리를 하지 않았다면 실행 시 java.io.NotSerializableException이 발생한다.직렬화란?자바 시스템 내부에서 사용 되는 객체 또는 데이터를 외부에서도 사용 할 수 있도록 byte형태로 데이터를 변환하는 기술을 말한다. 반대로 바이트로 변환 된 데이터를 다시 객체로 변환하는 기술을 역직렬화라고 한다. 즉, 프로그램에서 존재하는 object와 File안에서의 object는 동일한 형태가 아니기 때문에 직렬화 과정을 통해서 형태를 맞춰줘야한다. 
+
+직렬화하는 방법 직렬화 대상 클래스에 Serializable 인터페이스만 구현하면 직렬화가 필요한 상황인 경우 데이터 직렬화 처리가 된다.
+
+ObjectInputStream .write(Object)메소드 이용 가능 
+
+역직렬화를 했을 때 프로그램내에서 알맞는 클래스 타입이 존재하지 않을 가능성이 있다. 
+-----------------------------------------------------------------------------------------------------
+열거타입이란 관련이 있는 상수의 집합의 클래스이다.
+
+1. 의미적으로 다르지만 값이 같은 경우 에러가 일어날 수도 있고 디버깅이 어렵다. 
+2. 정수형 상수는 문자열로 출력하기 어렵다.
+3. 정수 열거 그룹에 속한 모든 상수를 순회하는 방법도 쉽지 않다.
+4. 정수 열거 패턴으로 상수가 선언 된 경우 상수에 변경이 발생하면 컴파일을 새로 해야한다.
+
+이런 단점을 보완하여 만들어진 것이 Enum(정수 열거 패턴)이다.
+
+작성 순서대로 0부터 값이 자동으로 부여된다. 
+
+singleton : 하나만 만들어진다. 
+
+Enum은 인스턴스를 만들거나 확장이 되지 않는다.
+
+객체 구현 불가능하고 싱글톤이다. 
+
+생성자를 통해 초기화 
+
+메서드를 사용할 수 있다. 
+
+values()메소드 모든 값을 배열로 리턴 
+
+EnumSet은 열거 타입 모든 상수를 Set에 추가한다. 
+
+.class는 클래스에 대한 정보를 알려준다. 
+
+Enum도 클래스이자 자료형이다. 생성자와 메소드가 있을 수 있다. 내부적으로는 열거해놓은 값들을 객체로 보면 된다. 
+
+제한된 타입의 값들만 사용하게 하려면 Enum타입을 쓰면 된다.
+
+열거 상수는 열거 객체이기 때문에 생성자를 이용해 열거 상수에 여러 개의 값을 넣을 수 있다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

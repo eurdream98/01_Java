@@ -1,0 +1,77 @@
+필기테스트3차
+고동환
+1. 2
+2. 3,4
+3. 2,4 x
+4. x
+5. 4,6x
+6. @Override
+7. 2,4
+8. 1x
+9. public,final,static
+10. 4x
+11. 4
+12. 5
+13. ABC123
+     After  change:ABC123456x
+14. 5x
+15. 1. throws 2. trycatch문 3. 
+16. 2
+17. throw
+18. 4
+19. 3
+20. 자식클래스가 부모클래스를 상속받을 때 자료형도 상속 받는 것을 의미함
+21. 상속 불가능
+     오버라이딩 불가능
+     리터럴 변경 불가능
+22. 3x
+23. instancesof
+24. 
+25. 순서가 없으면서 중복 불가능
+     순서가 있고 중복 가능
+     순서가 있고 키 값 중복 불가능 value값은 중복 가능
+26. IOException예외 처리x
+27. 4
+28. BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+29. ZeroException뒤에 extends Exception 입력 
+ if(b==0){
+	throw new ZeroException();
+}
+
+try{
+
+	System.out.println(new Calculator().divide(12.5, 0));
+}catch(ZeroException e){
+	e.printStacktrace();
+}
+
+30. 
+try {
+ Porperties prop = new Properties();
+ prop.load(new FileReader(“dbSource.txt”));
+ 중간 생략
+}catch(IOException e|SQLException e){
+ e.printStackTrace();
+}
+
+31. HashMap<String,Book> hm = new HashMap<>();
+
+32. try(FileReader fr = new FileReader("books.dat")){
+	
+
+}catch(IOException e){
+ e.printStackTrace();
+}
+
+33. for(int i = 0 ; i<map.size();i++){
+	sout(map.get[i]);
+}
+
+
+
+
+
+
+
+
+
