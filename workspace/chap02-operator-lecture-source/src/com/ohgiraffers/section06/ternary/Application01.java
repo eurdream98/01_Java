@@ -15,6 +15,7 @@ public class Application01 {
 
         int num3 = 5;
         int num4 = 0;
+
         int num5 = -5;
         String result3 = (num3 > 0)?"양수다.":(num3==0)?"0이다.":"음수다.";
         String result4 = (num4 > 0)?"양수다.":(num4==0)?"0이다.":"음수다.";
