@@ -38,6 +38,7 @@ public class Application03 {
         String str2 = sc.nextLine();
         System.out.println("str2 : "+str2);
 
+
         /* 입력 버퍼에 남아있는 개행 문자로 인해 이어지는 nextLine()이 아무 값도 입력받지 않고 빈 문자열로 처리된다.
         * => 입력 버퍼에 남은 개행문자를 사전에 읽고 버린다.
         * */
