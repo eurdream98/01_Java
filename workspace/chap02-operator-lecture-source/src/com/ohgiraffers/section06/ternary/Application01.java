@@ -14,6 +14,7 @@ public class Application01 {
 
         /* 중첩 사용도 가능하다. */
 
+
         int num3 = 5;
         int num4 = 0;
 
