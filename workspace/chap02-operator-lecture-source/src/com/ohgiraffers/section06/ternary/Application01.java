@@ -9,6 +9,7 @@ public class Application01 {
         String result2 = (num2>0) ? "양수다.":"양수가 아니다.";
 
         System.out.println("num1은 "+result1);
+
         System.out.println("num1은 "+result2);
 
 
