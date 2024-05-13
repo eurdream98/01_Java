@@ -10,6 +10,7 @@ public class Application01 {
 
         System.out.println("num1은 "+result1);
 
+
         System.out.println("num1은 "+result2);
 
 
