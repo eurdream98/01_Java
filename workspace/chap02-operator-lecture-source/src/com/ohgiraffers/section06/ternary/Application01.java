@@ -3,6 +3,7 @@ package com.ohgiraffers.section06.ternary;
 public class Application01 {
     public static void main(String[] args) {
         /* 삼항 연산자에 대해 이해하고 활용할 수 있다. */
+
         int num1 = 10;
         int num2 = -10;
         String result1 = (num1>0) ? "양수다.":"양수가 아니다.";
