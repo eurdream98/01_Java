@@ -42,6 +42,7 @@ public class A_nestedFor {
         * *****
         *  */
         Scanner sc = new Scanner (System.in);
+
         System.out.println("출력할 행 수 입력 : ");;
         int row = sc.nextInt();
 
