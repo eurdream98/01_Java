@@ -40,6 +40,7 @@ public class A_nestedFor {
         * ***
         * ****
         * *****
+        *
         *  */
         Scanner sc = new Scanner (System.in);
 
